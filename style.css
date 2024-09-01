@@ -18,7 +18,7 @@ body{
     color: white;
     font-size: 2.7rem;
     font-family: "Cinzel", serif;
-    margin: 30px 10px;
+    margin: 20px 10px;
 }
 
 .adult-cats{
@@ -152,8 +152,16 @@ body{
 
 
 @media (max-width: 500px){
+    body{
+        height: 70vh;
+    }
     #container h1{
         font-size: 170%;
+        margin-top: 30px;
+    }
+
+    #cat-container{
+        margin-top: 60px;
     }
 
     .cats-img{
@@ -167,6 +175,20 @@ body{
     .swiper-pagination{
         position: relative;
         top: 50px;
+        margin-bottom: 50px
         
+    }
+}
+
+
+@media (max-width: 1200px){
+    body{
+        height: 110vh;
+        padding-bottom: 50px;
+    }
+
+    #container h1{
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
